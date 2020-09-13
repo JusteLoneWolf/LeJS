@@ -2,11 +2,9 @@
 
 ### Documentation
 
-----
-
 [MDN](https://developer.mozilla.org/fr/docs/Apprendre/JavaScript), [WSCHOOL](https://www.w3schools.com/js/default.asp)
 
-### let, const, var
+### Variable
 
 ---
 - let peux être utilisé partout dans un bloc mais une fois sorti d'un bloc il seras plus defini mais il peu etre reassigné
@@ -80,4 +78,86 @@ switch (x) {
     //s'execute si aucune des condition n'est remplit
     console.log("x n'est pas egale a 1 ni a 10")
 }
+```
+
+### Structure des donnée
+
+#### Objet
+
+```js
+let objet = {animal : "dog"}
+
+console.log(objet) // return {animal : "dog}
+console.log(objet.animal) // retourne dog
+```
+
+#### Array
+````js
+let array = ["a","b","c"]
+
+console.log(array) // retourne ["a","b","c"]
+console.log(array[0]) //retourne a
+````
+
+#### Melange
+
+```js
+let melange = [{animal : "dog"},{animal : "cat"}]
+
+console.log(melange) //retoune [{animal : "dog"},{animal : "cat"}]
+
+console.log(melange[0]) // retourne {animal : "dog"}
+console.log(melange[0].animal) // retourne dog
+
+```
+
+### Boucle
+
+- for, while
+
+```js
+for (let i = 0; 0 <i;i++){
+console.log(i) // retourne 1,2,3,4,5,6,7,8,9,10,
+}
+
+let i = 0
+while (0<i){
+i++
+console.log(i) // retourne 1,2,3,4,5,6,7,8,9,10,
+}
+```
+
+- for of... for in
+
+```js
+const array1 = ['a', 'b', 'c'];
+
+for (const element of array1) {
+  console.log(element); // retourne a,b,c
+}
+
+const object = { a: 1, b: 2, c: 3 };
+
+for (const property in object) {
+  console.log(`${property}: ${object[property]}`); //retoune "a: 1" "b: 2" "c: 3"
+
+}
+```
+
+
+### Methode
+- typeof permet de voir quel est le type de variable
+```js
+let string = "salut"
+
+console.log(typeof string) // retourne String
+```
+
+```js
+let string = "salut"
+
+console.log(string.toUpperCase()) // returne SALUT
+let UpperString = "SALUT"
+
+console.log(UpperString.toLowerCase()) // retourne  salut
 ```
