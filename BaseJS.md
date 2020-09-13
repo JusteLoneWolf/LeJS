@@ -36,6 +36,63 @@
         console.log(hello) //retourne salut
 ```
 
+### Operateur
+
+== egale a
+```js
+let x = 5
+
+x == 5 //true
+```
+=== egale a et egale au type
+```js
+let x = 5
+
+x === 5 //true
+x === '5' // false
+```
+
+!= pas egale
+```js
+let x = 5
+
+x != 6 //true
+```
+
+!== pas egale et pas le meme type
+```js
+let x = 5
+
+x !== 5 //false
+x !== 6 //true
+x !== '5' // true
+```
+
+\> plus grand que
+```js
+let x = 5
+
+x > 7 // false
+```
+
+\< plus petit que
+```js
+let x = 5
+x < 7 //true
+```
+
+\>= plus grand ou egale
+```js
+let x = 5
+
+x >= 5 //false
+```
+\<= plus petit ou egale
+```js
+let x = 5
+
+x <= 7 //true
+```
 ### Condition
 
 - #### If & if....else & if....else if
