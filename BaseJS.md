@@ -21,7 +21,7 @@
  ```js
         const hello = 'hello'
         console.log(hello) // retourne hello
-        hello = 'bonjour' // retourne hello
+        hello = 'bonjour' 
         console.log(hello) // error 
 ```
 
