@@ -218,3 +218,25 @@ let UpperString = "SALUT"
 
 console.log(UpperString.toLowerCase()) // retourne  salut
 ```
+
+### Fonction
+```js
+function hello() {
+  console.log("salut")
+}
+
+hello() // retourne salut
+
+
+function hello2(text) {
+  console.log(text)
+}
+
+hello2("Hello") // retourne Hello
+
+function hello3(text) {
+  return text
+}
+
+console.log(hello3('Hey')) // retourne hey
+```
