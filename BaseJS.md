@@ -239,4 +239,11 @@ function hello3(text) {
 }
 
 console.log(hello3('Hey')) // retourne hey
+
+function hello4(text = "Salut") { //si text n'est pas definit la valeur par defaut seras Salut
+  return text
+}
+
+console.log(hello3('Hey')) // retourne hey
+console.log(hello3()) // retourne Salut
 ```
