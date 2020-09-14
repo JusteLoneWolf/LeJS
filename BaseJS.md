@@ -244,6 +244,6 @@ function hello4(text = "Salut") { //si text n'est pas definit la valeur par defa
   return text
 }
 
-console.log(hello3('Hey')) // retourne hey
-console.log(hello3()) // retourne Salut
+console.log(hello4('Hey')) // retourne hey
+console.log(hello4()) // retourne Salut
 ```
