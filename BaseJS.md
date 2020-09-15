@@ -36,6 +36,22 @@
         console.log(hello) //retourne salut
 ```
 
+### Type
+```js
+let x = 1 //number
+x = 1.2 //number
+x = 'Salut' // strings
+x = '1' // strings
+x = {} // Object
+x = [] // Object
+x = true // boolean
+x = function() {} // function
+x = undefined // undefined
+x = new Date() // object
+.....
+// Pour verifier le type d'un variable faites `typeof variable`
+```
+
 ### Operateur
 
 == egale a
@@ -209,14 +225,26 @@ let string = "salut"
 
 console.log(typeof string) // retourne String
 ```
-
+- toUpperCase & toLowerCase mais un stings en petit ou en grand
 ```js
 let string = "salut"
-
 console.log(string.toUpperCase()) // returne SALUT
-let UpperString = "SALUT"
+console.log('salut'.toUpperCase()) // returne SALUT
 
+let UpperString = "SALUT"
 console.log(UpperString.toLowerCase()) // retourne  salut
+console.log('SALUT'.toUpperCase())// retourne  salut
+```
+- Modification de type
+
+```js
+let number = 1
+number.toString() // '1'
+1.toString() // '1'
+
+let stringNumber = '1'
+parseInt(stringNumber) // 1
+parseInt('1') //1
 ```
 
 ### Fonction
