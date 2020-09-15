@@ -246,6 +246,45 @@ let stringNumber = '1'
 parseInt(stringNumber) // 1
 parseInt('1') //1
 ```
+- La fusion avec un string et un nombre ? 
+```js
+let nombre = 1
+let string = "Ce ci est un chiffre"
+
+string+nombre // retourne  "Ce ci est un chiffre1"
+```
+ Eh oui il y a pas besoin de faire un toString a un nombre pour l'inclure dans un stings mais avec ce chiffre on ne pourras pas faire d'addition mais le reste oui 
+
+-Le calcule avec un chiffre dans un stings
+```js
+let StringNumber = '2'
+console.log(StringNumber+StringNumber) // retourne 22
+console.log(StringNumber-StringNumber) // retourne 0
+console.log(StringNumber*StringNumber) // retourne 4
+console.log(StringNumber/StringNumber) // retourne 1
+console.log(StringNumber%StringNumber) // retourne 0
+
+// et aussi on peux calculé un chriffre avec un strings
+
+console.log(StringNumber+2) // retourne 22
+console.log(StringNumber-2) // retourne 0
+console.log(StringNumber*2) // retourne 4
+console.log(StringNumber/2) // retourne 1
+console.log(StringNumber%2) // retourne 0
+
+// Et avec les calcule il va retourné un nombre et non un strings SAUF l'addition qui retourne un stings
+```
+- Mettons de l'ordre dans tous ca
+
+```js
+let array = [2,7,9,6,4,8,3,1]
+
+array.sort()
+console.log(array)
+// ou 
+console.log(array.sort()) // retourne [1, 2, 3, 4, 6, 7, 8, 9]
+
+```
 
 ### Fonction
 ```js
