@@ -1,6 +1,6 @@
 # NodeJS
 
-installé [nodejs](https://nodejs.org/en/)
+Installer [nodejs](https://nodejs.org/en/)
 ### Doc
 [nodejs](https://nodejs.org/en/docs/) [BaseJS](https://github.com/zechaos031/cours/blob/master/BaseJS.md) [MDN](https://developer.mozilla.org/fr/docs/Apprendre/JavaScript), [WSCHOOL](https://www.w3schools.com/js/default.asp)
 
