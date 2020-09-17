@@ -4,7 +4,7 @@
 
 Les variable sont stocké dans le cache de la ram donc ca devient vite consommateur en ram et qu'il faut soit les évité soit les limité
 
-Dans un fichier de configuration nommé config.js(NodeJS) 
+Dans un fichier de configuration nommé config.js (NodeJS) 
 ```js
 module.exports ={
     personne1 :{
